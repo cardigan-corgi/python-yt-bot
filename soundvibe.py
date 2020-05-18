@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 import urllib.parse, urllib.request, re
 import config
-TOKEN = 'NzEwNzY0MzYxMDg1MzU0MDI2.Xr5M7A.e0tUZAvAxr8wFLSoFb4KIsY0luY'
+TOKEN = 'TOKEN'
 
 client = discord.Client()
 class Bot(commands.AutoShardedBot):
