@@ -25,7 +25,7 @@ class Bot(commands.AutoShardedBot):
         await ctx.send('https://www.youtube.com/watch?v=' + search_results[0])
 
     def run(self):
-        super().run('NzEwNzY0MzYxMDg1MzU0MDI2.Xr5M7A.e0tUZAvAxr8wFLSoFb4KIsY0luY')
+        super().run(TOKEN)
 if __name__ == '__main__':
     bot = Bot()
     bot.run()
